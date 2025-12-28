@@ -1,0 +1,32 @@
+{
+  "name": "tubepedia",
+  "version": "1.0.0",
+  "description": "Encyclopedia of the London Underground",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "sass": "sass src/scss/index.scss src/public/css/index.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordan-corbett/tubepedia.git"
+  },
+  "author": "Jordan Corbett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordan-corbett/tubepedia/issues"
+  },
+  "homepage": "https://github.com/jordan-corbett/tubepedia#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pug": "^3.0.3",
+    "sass": "^1.97.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
